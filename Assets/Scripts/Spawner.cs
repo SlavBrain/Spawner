@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private SpawnPoint[] _spawnPoints;
-    [SerializeField] private GameObject _enemy;
+    [SerializeField] private Enemy _enemy;
     [SerializeField] private float _timeToDelayCreatingEnemy;
 
     private Coroutine _spawningEnemy;
@@ -15,10 +15,6 @@ public class Spawner : MonoBehaviour
         _spawnPoints = GetComponentsInChildren<SpawnPoint>();
     }
 
-    private void Start()
-    {
-        
-    }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)&&_spawningEnemy==null)

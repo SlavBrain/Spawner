@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnPoints: []
-  _enemy: {fileID: 2509319740873362360, guid: cedbfd2ac5a4e314580b254fe8def168, type: 3}
+  _enemy: {fileID: 4762365331176468560, guid: cedbfd2ac5a4e314580b254fe8def168, type: 3}
   _timeToDelayCreatingEnemy: 2
 --- !u!4 &411929732
 Transform:
